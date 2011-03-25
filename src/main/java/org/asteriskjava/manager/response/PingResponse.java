@@ -28,6 +28,7 @@ public class PingResponse extends ManagerResponse
     private static final long serialVersionUID = 0L;
 
     private String ping;
+    private Double timestamp;
 
     /**
      * Returns always "Pong".
@@ -42,5 +43,25 @@ public class PingResponse extends ManagerResponse
     public void setPing(String ping)
     {
         this.ping = ping;
+    }
+
+    /**
+     * Returns the timestamp for this response.
+     * <p/>
+     * In contains the time the response was generated in seconds since the epoch.
+     * <p/>
+     * Example: 1300978224.745639
+     *
+     * @return the timestamp for this response.
+     * @since 1.0.0
+     */
+    public Double getTimestamp()
+    {
+        return timestamp;
+    }
+
+    public void setTimestamp(Double timestamp)
+    {
+        this.timestamp = timestamp;
     }
 }
