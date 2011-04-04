@@ -13,9 +13,9 @@ Asterisk-Java
   
   Asterisk-Java supports most features of the following Asterisk interfaces:
   
-   * {{{http://www.voip-info.org/wiki-Asterisk+AGI}Fast Asterisk Gateway Interface}} (FastAGI)  ({{{apidocs/org/asteriskjava/manager/event/package-summary.html}javadocs}})
+   * {{{http://www.voip-info.org/wiki-Asterisk+AGI}Fast Asterisk Gateway Interface}} (FastAGI)  ({{{apidocs/index.html?org/asteriskjava/fastagi/package-summary.html}javadocs}})
    
-   * {{{http://www.voip-info.org/wiki-Asterisk+manager+API}Asterisk Manager interface}} (AMI) ({{{apidocs/org/asteriskjava/fastagi/command/package-summary.html}javadocs}}).
+   * {{{http://www.voip-info.org/wiki-Asterisk+manager+API}Asterisk Manager interface}} (AMI) ({{{apidocs/index.html?org/asteriskjava/manager/package-summary.html}javadocs}}).
    
    * Inter-Asterisk eXchange (IAX) Protocol (<<coming soon!>>)
    
