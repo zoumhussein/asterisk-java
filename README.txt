@@ -1,35 +1,17 @@
-README for Asterisk-Java
-========================
+ANNOUNCEMENT: Asterisk-Java 0.4.0 released
 
-== INTRODUCTION ==
+Asterisk-Java 0.4.0, a free Java library for Asterisk PBX integration,
+has been released.
 
-The Asterisk-Java package consists of a set of Java classes that allow you to
-easily build Java applications that interact with an Asterisk PBX Server.
-Asterisk-Java supports both interfaces that Asterisk provides for this
-scenario: The FastAGI protocol and the Manager API.
+What is different from 0.3.1? 
+I have implemented queue management in the thread executor. 
+In the official 0.3.1 version, Java threads were place in unbounded queue, in this version it is possible to choose 
+a bounded queue giving its size or keep the previous behaviour by providing -1. 
+Most importantly it is a fork from GITHUB
 
-The FastAGI implementation supports all commands currently available from
-Asterisk.
+The Asterisk-Java package consists of a set of Java classes that allow
+you to easily build Java applications that interact with an Asterisk
+PBX Server. Asterisk-Java supports both interfaces that Asterisk 
+provides for this scenario: The FastAGI protocol and the Manager API.
 
-The Manager API implementation supports receiving events from the Asterisk
-server (e.g. call progess, registered peers, channel state) and sending actions
-to Asterisk (e.g. originate call, agent login/logoff, start/stop voice
-recording).
-
-A complete list of the available events and actions is available in the
-javadocs.
-
-See docs/tutorial.html for examples.
-
-== LEGAL ==
-
-Asterisk-Java is subject to the terms detailed in the license agreement 
-accompanying it.
-
-== GETTING ASTERISK-JAVA ==
-
-Asterisk-Java is available from http://asterisk-java.org
-
-== SYSTEM REQUIREMENTS ==
-
-Asterisk-Java needs a Java Virtual Machine of at least version 1.5 (J2SE 5.0).
+Asterisk-Java is available under Apache 2.0 license at http://asterisk-java.org
