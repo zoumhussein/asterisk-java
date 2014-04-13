@@ -7,3 +7,9 @@ target
 .settings/*
 .idea
 classes
+/bin
+/examples/.settings/org.eclipse.jdt.core.prefs
+/examples/.settings/org.eclipse.m2e.core.prefs
+/examples/.settings/org.eclipse.wst.common.component
+/examples/.settings/org.eclipse.wst.common.project.facet.core.xml
+/examples/bin/org/asteriskjava/fastagi/internal/*.class
